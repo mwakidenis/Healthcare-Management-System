@@ -1,0 +1,14 @@
+OnlineHealthcareSystem/
+├─ src/
+│  ├─ app/                # helpers, initializers
+│  ├─ dao/                # interfaces (AppointmentDAO, UserDAO, ...)
+│  ├─ dao/impl/           # implementations (AppointmentDAOImpl, UserDAOImpl)
+│  ├─ model/              # Appointment.java, Patient.java, User.java
+│  ├─ ui/                 # All Swing frames (AdminDashboard, ManageAppointmentsFrame, etc.)
+│  └─ util/               # DBConnection.java, DateLabelFormatter.java, Validation.java, UITheme.java
+├─ lib/                   # Third-party jars (mysql-connector, jbcrypt, flatlaf, jdatepicker)
+├─ resources/             # images, pptx, docs
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+└─ PDF /                   # presentation slides
