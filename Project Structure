@@ -1,0 +1,45 @@
+OnlineHealthcareSystem/
+│
+├── src/
+│     ├── app/
+│     │     └── GenerateAdmin.java
+│     │
+│     ├── dao/
+│     │     ├── AppointmentDAO.java
+│     │     └── UserDAO.java
+│     │
+│     ├── dao/impl
+│     │     ├── AppointmentDAOImpl.java
+│     │     └── UserDAOImpl.java
+│     │
+│     ├── model/
+│     │     ├── Appointment.java
+│     │     ├── Patient.java
+│     │     └── User.java
+│     │
+│     ├── onlinehealthcaresystem/
+│     │     └── OnlineHealthcareSystem.java
+│     │
+│     ├── ui/
+│     │    ├── Admindashboard.java
+│     │    ├── LoginFrame.java
+│     │    ├── ManageAppointmentsFrame.java
+│     │    ├── ManageDoctorsFrame.java
+│     │    ├── ManagePatientsFrame.java
+│     │    ├── ModernButton.java
+│     │    ├── RoundedPanel.java
+│     │    └── Theme.java
+│     │
+│     ├── util/
+│     │    ├── Background.java
+│     │    ├── DBConnection.java
+│     │    ├── DateLabelFormatter.java
+│     │    ├── PasswordUtil.java
+│     │    ├── UITheme.java
+│     │    └── Validation.java
+│     │
+└── lib/
+      ├── mysql-connector-j-9.5.0.jar
+      ├── jbcrypt-0.4.jar
+      ├── flatlaf-3.4.jar
+      └── jdatepicker-1.3.4.jar
