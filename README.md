@@ -181,5 +181,3 @@ Built with **Java Swing** (desktop UI), **JDBC / MySQL** (database), DAO pattern
 - UI enhancement using CSS
 - MVC-ready structure
 - Scalable design
-
--
