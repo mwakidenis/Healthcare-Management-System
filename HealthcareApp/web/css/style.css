@@ -1,0 +1,122 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f9f9f9);
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== CONTAINER CARD ===== */
+.container {
+    width: 420px;
+    margin: 70px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ===== HEADINGS ===== */
+h1, h2 {
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM ELEMENTS ===== */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+}
+
+/* ===== BUTTONS ===== */
+button, input[type=submit] {
+    width: 100%;
+    background: linear-gradient(to right, #1976d2, #42a5f5);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, input[type=submit]:hover {
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    transform: scale(1.03);
+}
+
+/* ===== LINKS ===== */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MENU BUTTONS ===== */
+.menu a {
+    background: linear-gradient(to right, #2e7d32, #66bb6a);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background: linear-gradient(to right, #1b5e20, #2e7d32);
+    transform: scale(1.03);
+}
+
+/* ===== ERROR MESSAGE ===== */
+.error {
+    color: #d32f2f;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ===== TABLE DESIGN ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== SUCCESS MESSAGE ===== */
+.success {
+    color: #2e7d32;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
